@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'BMWTypeNext Latin TT';
+    src: url('BMWTypeNextLatin/BMWTypeNextLatinTT-Light.eot');
+    src: url('BMWTypeNextLatin/BMWTypeNextLatinTT-Light.eot?#iefix') format('embedded-opentype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Light.woff2') format('woff2'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Light.woff') format('woff'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Light.ttf') format('truetype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Light.svg#BMWTypeNextLatinTT-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMWTypeNext Latin TT';
+    src: url('BMWTypeNextLatin/BMWTypeNextLatinTT-Bold.eot');
+    src: url('BMWTypeNextLatin/BMWTypeNextLatinTT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Bold.woff2') format('woff2'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Bold.woff') format('woff'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Bold.ttf') format('truetype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Bold.svg#BMWTypeNextLatinTT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMWTypeNext Latin TT';
+    src: url('BMWTypeNextLatin/BMWTypeNextLatinTT-Regular.eot');
+    src: url('BMWTypeNextLatin/BMWTypeNextLatinTT-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Regular.woff2') format('woff2'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Regular.woff') format('woff'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Regular.ttf') format('truetype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatinTT-Regular.svg#BMWTypeNextLatinTT-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMWTypeNext Latin';
+    src: url('BMWTypeNextLatin/BMWTypeNextLatin-Bold.eot');
+    src: url('BMWTypeNextLatin/BMWTypeNextLatin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Bold.woff2') format('woff2'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Bold.woff') format('woff'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Bold.ttf') format('truetype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Bold.svg#BMWTypeNextLatin-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMWTypeNext Latin';
+    src: url('BMWTypeNextLatin/BMWTypeNextLatin-Regular.eot');
+    src: url('BMWTypeNextLatin/BMWTypeNextLatin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Regular.woff2') format('woff2'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Regular.woff') format('woff'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Regular.ttf') format('truetype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Regular.svg#BMWTypeNextLatin-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMWTypeNext Latin';
+    src: url('BMWTypeNextLatin/BMWTypeNextLatin-Light.eot');
+    src: url('BMWTypeNextLatin/BMWTypeNextLatin-Light.eot?#iefix') format('embedded-opentype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Light.woff2') format('woff2'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Light.woff') format('woff'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Light.ttf') format('truetype'),
+        url('BMWTypeNextLatin/BMWTypeNextLatin-Light.svg#BMWTypeNextLatin-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@mixin cf-typenext-tt {
+	font-family: 'BMWTypeNext Latin TT', Arial;
+}
+.cf-typenext-tt {
+    @include cf-typenext-tt;
+}
